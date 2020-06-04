@@ -14,10 +14,6 @@ The **scripts** needed:
 * `1_sitewise_analyzer.pl` and `2_genewise_analyzer.pl` from [Shen et al. (2017)](https://www.nature.com/articles/s41559-017-0126)
 * An R script for plotting: `Shen2017_podofam.R`
 
-The path:
-
-	$ cd /mnt/sda/johannesson_lab/podospora/Podosporaceae/
-
 ## The configuration file
 
 The configuration file contains the paths to the necessary files to run the pipeline.
