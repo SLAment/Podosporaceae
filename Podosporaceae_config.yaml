@@ -1,0 +1,24 @@
+# Configuration file of the Podosporaceae.smk pipeline
+
+## Master nexus file
+masternex: "data/Podosporaceae_20200602.nxs"
+
+## Name of the full concatenation of all markers in the master nexus file
+allmarkersname: "allmarkers"
+
+## RAxML-like partition file to calculate the SLS and GLS metrics (It must be named "{allmarkersname}_combining_orders.txt")
+orders: "data/allmarkers_combining_orders.txt"
+
+## Filtering for alignments of individual markers
+minfrac: 0.45 # min fraction of overlap with the whole alignment length for a sequence to be considered
+minlen: 250 
+
+## Scripts
+sitewise_analyzer: "scripts/1_sitewise_analyzer.pl"
+genewise_analyzer: "scripts/2_genewise_analyzer.pl" 
+plotShen: "scripts/Shen2017_podofam.R"
+
+# Outgroup clade
+outgroup: ["Lasiosphaeria_ovina_SMH1538", "Zopfiella_tabulata_CBS230.78", "Sordaria_fimicola_SMH4106", "Diplogelasinospora_princeps_FMR13414", "Chaetomium_globosum_CBS148.51", 'Chaetomium_globosum_CBS160.62', 'Cercophora_mirabilis_CBS120402']
+# A representative of clades A, B and C in that order
+testmonophyly: ["Podospora_anserina_S", "Cercophora_grandiuscula_CBS120013", "Podospora_fimiseda_CBS990.96"] 

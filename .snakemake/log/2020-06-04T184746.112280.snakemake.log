@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 93 of /Users/Lorena/Dropbox/PhD_UU/ProjectsCode/Podosporaceae/Podosporaceae.smk:
+Missing input files for rule minlen:
+singlemarkers/allmarkers.fas
