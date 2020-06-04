@@ -1,3 +1,0 @@
-SyntaxError:
-Not all output, log and benchmark files of rule RAxML_SLS contain the same wildcards. This is crucial though, in order to avoid that two or more jobs write to the same file.
-  File "/Users/Lorena/Dropbox/PhD_UU/ProjectsCode/Podosporaceae/Podosporaceae.smk", line 244, in <module>
