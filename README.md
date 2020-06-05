@@ -92,4 +92,6 @@ If we produce the graph again:
 
 ![rulegraph](rulegraph_after.png "rulegraph after running the pipeline")
 
+## Results
 
+After the pipeline runs successfully, there will be a new folder called `results` that contains the individual ML trees of each partition in the nexus file, as well as a plot with the dGLS per marker and the number of sites supporting T1 and T2.
