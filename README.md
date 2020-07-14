@@ -4,7 +4,7 @@ In this study we compiled sequence data for a number of molecular markers (ITS, 
 
 The **data** required for this pipeline is:
 
-* The master concatenated alignment in nexus format with annotated limits of the markers (`Podosporaceae_20200602.nxs`). You can open it with [SeaView](http://doua.prabi.fr/software/seaview), for example.
+* The master concatenated alignment in nexus format with annotated limits of the markers (`Podosporaceae_20200714.nxs`). You can open it with [SeaView](http://doua.prabi.fr/software/seaview), for example.
 * A partition file (in the RAxML style) with the genes to be analyzed by the scripts of [Shen et al. (2017)](https://www.nature.com/articles/s41559-017-0126) to obtain gene-wise log-likelihood scores (dGLS) values: `allmarkers_combining_orders.txt`. 
 
 The **scripts** needed:
@@ -23,7 +23,7 @@ The configuration file contains the paths to the necessary files to run the pipe
 # Configuration file of the Podosporaceae.smk pipeline
 
 ## Master nexus file
-masternex: "data/Podosporaceae_20200602.nxs"
+masternex: "data/Podosporaceae_20200714.nxs"
 
 ## Name of the full concatenation of all markers in the master nexus file
 allmarkersname: "allmarkers"
