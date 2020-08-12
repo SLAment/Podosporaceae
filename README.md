@@ -4,7 +4,7 @@ In this study we compiled sequence data for a number of molecular markers (ITS, 
 
 The **data** required for this pipeline is:
 
-* The master concatenated alignment in nexus format with annotated limits of the markers (`Podosporaceae_20200714.nxs`). You can open it with [SeaView](http://doua.prabi.fr/software/seaview), for example.
+* The master concatenated alignment in nexus format with annotated limits of the markers (`Podosporaceae_20200714.nxs`). You can open it with [SeaView](http://doua.prabi.fr/software/seaview), for example. We submitted it to TreeBase (accession number XXXX) but I had to fit it to the Mesquite nexus format for that. To make it compatible with the pipeline, you can open it in SeaView and save it as a new nexus file. It should work then. In any case, I put the original nexus here in this repo just in case.
 * A partition file (in the RAxML style) with the genes to be analyzed by the scripts of [Shen et al. (2017)](https://www.nature.com/articles/s41559-017-0126) to obtain gene-wise log-likelihood scores (dGLS) values: `allmarkers_combining_orders.txt`. 
 
 The **scripts** needed:
@@ -95,3 +95,8 @@ If we produce the graph again:
 ## Results
 
 After the pipeline runs successfully, there will be a new folder called `results` that contains the individual ML trees of each partition in the nexus file, as well as a plot with the dGLS per marker and the number of sites supporting T1 and T2.
+
+* TCmarkers.txt - Tree certainty statistics calculated for each partition ([Salichos et al. 2014;](https://academic.oup.com/mbe/article/31/5/1261/994356) [Kobert et al. 2016](https://academic.oup.com/mbe/article/33/6/1606/2579777)).
+* RelTCs.pdf - A plot of the values above
+* ShenMetrics.pdf - Figure 4 in the paper; dGLS values per gene (A) and the number of sites supporting each topology for each gene (B)
+* Tree files of all partitions (post filtering)
