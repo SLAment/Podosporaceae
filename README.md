@@ -99,5 +99,5 @@ After the pipeline runs successfully, there will be a new folder called `results
 * ShenMetrics.pdf - Figure 4 in the paper; dGLS values per gene (A) and the number of sites supporting each topology for each gene (B) (see below)
 * Tree files of all partitions (post filtering)
 
-![rulegraph](ShenMetrics.png "Figure 4")
+![ShenMetrics](ShenMetrics.png "Figure 4")
 
