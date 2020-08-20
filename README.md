@@ -96,7 +96,8 @@ If we produce the graph again:
 
 After the pipeline runs successfully, there will be a new folder called `results` that contains the individual ML trees of each partition in the nexus file, as well as a plot with the dGLS per marker and the number of sites supporting T1 and T2.
 
-* TCmarkers.txt - Tree certainty statistics calculated for each partition ([Salichos et al. 2014](https://academic.oup.com/mbe/article/31/5/1261/994356); [Kobert et al. 2016](https://academic.oup.com/mbe/article/33/6/1606/2579777)).
-* RelTCs.pdf - A plot of the values above
-* ShenMetrics.pdf - Figure 4 in the paper; dGLS values per gene (A) and the number of sites supporting each topology for each gene (B)
+* ShenMetrics.pdf - Figure 4 in the paper; dGLS values per gene (A) and the number of sites supporting each topology for each gene (B) (see below)
 * Tree files of all partitions (post filtering)
+
+![rulegraph](Fig4_ShenMetrics.pdf "Figure 4")
+
