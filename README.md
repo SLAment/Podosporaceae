@@ -1,4 +1,6 @@
-# Podosporaceae phylogeny
+# The taxonomy of the model filamentous fungus *Podospora anserina*
+
+Code for the paper [Ament-Velásquez et al. (2020) Mycokeys 75: 51-69](https://mycokeys.pensoft.net/article/55968/element/4/431//).
 
 In this study we compiled sequence data for a number of molecular markers (ITS, LSU, rpb2, and beta-tubulin) to resolve the phylogenetic relationships of lineages within the Podosporaceae family, sensu [Wang et al. (2019) Studies in Mycology 93:155-252](https://www.sciencedirect.com/science/article/pii/S0166061619300107). The primary objective was to determine the relative position of the model species *Podospora anserina* and the type species of the genus, *Podospora fimiseda*. Unfortunately, there is a lot of missing data.
 
